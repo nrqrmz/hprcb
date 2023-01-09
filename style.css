@@ -31,7 +31,7 @@ body {
 }
 
 #background-div {
-  background-color: black;
+  background-color: red;
   color: white;
 }
 
@@ -48,4 +48,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.not-important {
+  z-index: -100;
 }

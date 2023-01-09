@@ -8,3 +8,9 @@ video.addEventListener('click', ()=> {
   cubeDiv.classList.remove('display-none')
   cubeDiv.classList.add('display-flex-center')
 })
+
+cubeDiv.addEventListener('click', ()=> {
+  cubeDiv.classList.remove('display-flex-center')
+  cubeDiv.classList.add('display-none')
+  content.classList.remove('display-none')
+})
