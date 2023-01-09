@@ -19,14 +19,33 @@ body {
   /* opacity: 0.75; */
 }
 
-.display-content {
-  display: block;
+#cube-div {
+  background-color: white;
+  height: 100vh;
+  filter: invert(100%);
 }
-.display-none {
-  display: none;
+
+#cube-div img {
+  height: 80vh;
+  width: max-content;
 }
 
 #background-div {
   background-color: black;
   color: white;
+}
+
+.display-content {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
