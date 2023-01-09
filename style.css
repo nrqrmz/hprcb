@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+}
+
 #background-video {
   width: 100vw;
   height: 100vh;
@@ -9,5 +15,18 @@
   bottom: 0;
   z-index: -1;
   filter: grayscale(100%);
+  /* filter: invert(100%); */
   /* opacity: 0.75; */
+}
+
+.display-content {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+
+#background-div {
+  background-color: black;
+  color: white;
 }
