@@ -5,3 +5,7 @@
 @import "style/second.css";
 @import "style/third.css";
 @import "style/fourth.css";
+
+.display-none {
+  display: none;
+}

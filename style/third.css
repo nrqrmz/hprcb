@@ -9,8 +9,8 @@
 .circle-activities-img {
   border-radius: 50%;
   background-color: gray;
-  width: 50%;
-  height: 50%;
+  width: 440px;
+  height: 440px;
 }
 
 .circle-activities .half p {
@@ -18,11 +18,20 @@
   font-size: 24px;
 }
 
-.half-lines {
-  width: 50%;
+.third {
+  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.seventh-lines {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 40px;
 }
 
 .lines {
