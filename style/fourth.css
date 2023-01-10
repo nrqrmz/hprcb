@@ -1,0 +1,25 @@
+.two-columns {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-columns-wrapper {
+  width: 90vw;
+  height: 90vh;
+  /* background-color: gray; */
+}
+
+.inline {
+  display: flex;
+}
+
+.inline h1 {
+  margin-right: 8px;
+}
+
+.thin {
+  font-weight: normal;
+}
