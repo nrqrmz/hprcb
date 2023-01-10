@@ -12,14 +12,41 @@
   /* background-color: gray; */
 }
 
+.two-columns-wrapper p {
+  font-size: 16px;
+}
+
 .inline {
   display: flex;
 }
 
 .inline h1 {
   margin-right: 8px;
+  font-size: 40px;
 }
 
 .thin {
   font-weight: normal;
+}
+
+.projects-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-half {
+  margin-right: 40px;
+}
+
+.first-half a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-half a:hover {
+  color: black;
+}
+
+.active-year {
+  font-weight: bolder;
 }
