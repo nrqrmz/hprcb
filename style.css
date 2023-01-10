@@ -35,6 +35,28 @@ body {
   color: black;
 }
 
+#background-div img {
+  width: 200px;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 16px;
+}
+
 .display-content {
   display: block;
 }
@@ -48,8 +70,4 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.not-important {
-  z-index: -100;
 }

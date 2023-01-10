@@ -1,9 +1,6 @@
 const video = document.querySelector('#background-video')
 const cubeDiv = document.querySelector('#cube-div')
 const content = document.querySelector('#background-div')
-const navbar = document.querySelector('nav')
-
-
 
 video.addEventListener('click', ()=> {
   video.classList.add('display-none')
