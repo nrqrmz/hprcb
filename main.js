@@ -6,6 +6,7 @@ const years = document.querySelectorAll('.first-half p a')
 const fairs = document.querySelectorAll('.second-half-fair div')
 const yearsFair = document.querySelectorAll('.first-half-fair p a')
 const indices = [2, 1, 0, 9, 8, 7]
+const fairIndices = [2, 0, 9, 8, 7]
 
 video.addEventListener('click', ()=> {
   video.classList.add('display-none')
@@ -37,7 +38,7 @@ yearsFair.forEach((year) => {
     const index = event.currentTarget.innerText.split('')[3]
     clearYears(yearsFair)
     event.currentTarget.classList.add('active-year')
-    const yearIndex = indices.indexOf(parseInt(index, 10))
+    const yearIndex = fairIndices.indexOf(parseInt(index, 10))
     clearProjects(fairs)
     fairs[yearIndex].classList.remove('display-none')
   })
