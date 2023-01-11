@@ -3,6 +3,8 @@ const video = document.querySelector('#video-div')
 const content = document.querySelector('#background-div')
 const projects = document.querySelectorAll('.second-half div')
 const years = document.querySelectorAll('.first-half p a')
+const fairs = document.querySelectorAll('.second-half-fair div')
+const yearsFair = document.querySelectorAll('.first-half-fair p a')
 const indices = [2, 1, 0, 9, 8, 7]
 
 video.addEventListener('click', ()=> {
@@ -27,5 +29,16 @@ years.forEach((year) => {
     const yearIndex = indices.indexOf(parseInt(index, 10))
     clearProjects(projects)
     projects[yearIndex].classList.remove('display-none')
+  })
+})
+
+yearsFair.forEach((year) => {
+  year.addEventListener('click', (event)=> {
+    const index = event.currentTarget.innerText.split('')[3]
+    clearYears(yearsFair)
+    event.currentTarget.classList.add('active-year')
+    const yearIndex = indices.indexOf(parseInt(index, 10))
+    clearProjects(fairs)
+    fairs[yearIndex].classList.remove('display-none')
   })
 })

@@ -1,0 +1,16 @@
+.first-half-fair {
+  margin-right: 40px;
+}
+
+.first-half-fair a {
+  text-decoration: none;
+  color: black;
+}
+
+.first-half-fair a:hover {
+  color: black;
+}
+
+.active-year {
+  font-weight: bolder;
+}
