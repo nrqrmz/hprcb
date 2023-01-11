@@ -43,3 +43,11 @@ yearsFair.forEach((year) => {
     fairs[yearIndex].classList.remove('display-none')
   })
 })
+
+
+
+
+// window.addEventListener('keyup', (event)=>{
+//   // console.log(event.key === 'ArrowDown')
+//   console.log(event.currentTarget)
+// })
