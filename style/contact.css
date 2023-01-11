@@ -1,0 +1,44 @@
+.two-columns-wrapper {
+  width: 90vw;
+  /* height: 90vh; */
+  min-height: 90vh;
+  /* background-color: gray; */
+}
+
+.two-columns-wrapper p {
+  font-size: 16px;
+}
+
+.contact-members-spacing {
+  /* border: 1px solid red; */
+  margin-bottom: 40px;
+}
+
+.contact-members-spacing h1 {
+  /* border: 1px solid black; */
+  line-height: 8px;
+}
+
+.contact-content {
+  width: 100vw;
+  height: 80vh;
+  /* border: 1px solid red; */
+  padding-left: 184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 40px 40px 0;
+}
+
+.contact-footer {
+  /* border: 1px solid black; */
+  line-height: 8px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.contact-content-aligner {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: end;
+}
