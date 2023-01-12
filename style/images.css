@@ -15,6 +15,13 @@
     /* background-position: 50%; */
     /* background-color: gray; */
   }
+
+  .image-slide1 p {
+    font-size: 16px;
+    padding: 4px;
+    background-color: rgba(256, 256, 256, 0.3);
+    width: fit-content;
+  }
 }
 
 @media (min-width: 768px) {
@@ -26,6 +33,23 @@
     background-position-y: -260px;
     opacity: 0.7;
   }
+
+  .image-slide1 div {
+    /* border: 1px solid red; */
+    padding: 16px;
+  }
+
+  .image-slide1 p {
+    font-size: 16px;
+    padding: 4px;
+    background-color: rgba(256, 256, 256, 0.3);
+    width: fit-content;
+  }
+}
+
+.image-slide1 {
+  color: #222;
+  font-weight: bold;
 }
 
 
