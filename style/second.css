@@ -99,3 +99,10 @@
   background-position-y: 50%;
   /* height: auto; */
 }
+
+.placeholder-img-alt p {
+  font-size: 10px;
+  /* margin-left: 4px; */
+  position: absolute;
+  top: auto;
+}
