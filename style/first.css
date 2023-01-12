@@ -13,16 +13,47 @@
   text-align: center;
 }
 
-.flex-center h1 {
+@media (max-width: 700px) {
+  .flex-center h1 {
+    font-size: 64px;
+    letter-spacing: 8px;
+    padding: 0;
+    /* border: 1px solid red; */
+    margin: 0;
+  }
+
+  .flex-center p {
+    /* border: 1px solid purple; */
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-center h1 {
+    font-size: 160px;
+    letter-spacing: 48px;
+    padding: 0;
+    /* border: 1px solid red; */
+    margin: 0;
+  }
+
+  .flex-center p {
+    /* border: 1px solid purple; */
+    font-size: 32px;
+    margin: 0;
+  }
+}
+
+
+/* .flex-center h1 {
   font-size: 160px;
   letter-spacing: 48px;
   padding: 0;
-  /* border: 1px solid red; */
   margin: 0;
 }
 
 .flex-center p {
-  /* border: 1px solid purple; */
   font-size: 32px;
   margin: 0;
-}
+} */
