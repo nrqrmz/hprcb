@@ -38,7 +38,7 @@
 
   .half .column {
     margin: 40px;
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .about-full {
@@ -105,4 +105,8 @@
   /* margin-left: 4px; */
   position: absolute;
   top: auto;
+}
+
+.identation {
+  text-indent: 80px;
 }
