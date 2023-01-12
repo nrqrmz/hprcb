@@ -8,7 +8,10 @@
 
 .circle-activities-img {
   border-radius: 50%;
-  background-color: gray;
+  /* background-color: gray; */
+  background-image: url('../assets/foto04.JPG');
+  background-position: 50%;
+  background-size: cover;
   width: 440px;
   height: 440px;
 }
