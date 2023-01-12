@@ -1,9 +1,3 @@
-/* .section-placeholder {
-  height: 100vh;
-  width: 100vw;
-  background-color: gray;
-} */
-
 @media (max-width: 700px) {
   .image-slide1 {
     height: 50vh;
@@ -35,7 +29,6 @@
   }
 
   .image-slide1 div {
-    /* border: 1px solid red; */
     padding: 16px;
   }
 
