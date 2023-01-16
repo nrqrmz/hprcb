@@ -6,59 +6,100 @@
   width: 100vw;
 }
 
-.circle-activities-img {
-  border-radius: 50%;
-  /* background-color: gray; */
-  background-image: url('../assets/foto04.JPG');
-  background-position: 50%;
-  background-size: cover;
-  width: 440px;
-  height: 440px;
+@media (max-width: 700px) {
+  .third {
+    display: none;
+  }
+
+  .seventh-lines {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 40px;
+  }
+
+  .circle-activities-img {
+    display: none;
+  }
+
+  .lines {
+    /* flex-direction: column; */
+    /* margin: 40px; */
+    font-size: 10px;
+  }
+
+  .lines ul li {
+    list-style: none;
+    /* border: 1px solid red; */
+    text-align: right;
+    /* line-height: 80px; */
+  }
+
+  .lines a {
+    /* border: 1px solid red; */
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 720ms;
+  }
+
+  .lines a:hover {
+    color: black;
+    font-size: 12px;
+  }
 }
 
-.circle-activities .half p {
-  /* color: red; */
-  font-size: 24px;
-}
+@media (min-width: 768px) {
+  .third {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
 
-.third {
-  width: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* border: 1px solid red; */
-}
+  .seventh-lines {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 40px;
+  }
 
-.seventh-lines {
-  width: 55%;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  margin-right: 40px;
-}
+  .circle-activities-img {
+    border-radius: 50%;
+    /* background-color: gray; */
+    background-image: url('../assets/foto04.JPG');
+    background-position: 50%;
+    background-size: cover;
+    width: 440px;
+    height: 440px;
+  }
 
-.lines {
-  /* flex-direction: column; */
-  margin: 40px;
-  font-size: 24px;
-}
+  .lines {
+    /* flex-direction: column; */
+    margin: 40px;
+    font-size: 24px;
+  }
 
-.lines a {
-  /* border: 1px solid red; */
-  text-align: right;
-  text-decoration: none;
-  color: black;
-  transition: ease-in-out 720ms;
-}
+  .lines ul li {
+    list-style: none;
+    /* border: 1px solid red; */
+    text-align: right;
+    line-height: 80px;
+  }
 
-.lines a:hover {
-  color: black;
-  font-size: 26px;
-}
+  .lines a {
+    /* border: 1px solid red; */
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    transition: ease-in-out 720ms;
+  }
 
-.lines ul li {
-  list-style: none;
-  /* border: 1px solid red; */
-  text-align: right;
-  line-height: 80px;
+  .lines a:hover {
+    color: black;
+    font-size: 26px;
+  }
 }
