@@ -18,12 +18,10 @@
     font-size: 64px;
     letter-spacing: 8px;
     padding: 0;
-    /* border: 1px solid red; */
     margin: 0;
   }
 
   .flex-center p {
-    /* border: 1px solid purple; */
     font-size: 24px;
     margin: 0;
   }
@@ -34,26 +32,11 @@
     font-size: 160px;
     letter-spacing: 48px;
     padding: 0;
-    /* border: 1px solid red; */
     margin: 0;
   }
 
   .flex-center p {
-    /* border: 1px solid purple; */
     font-size: 32px;
     margin: 0;
   }
 }
-
-
-/* .flex-center h1 {
-  font-size: 160px;
-  letter-spacing: 48px;
-  padding: 0;
-  margin: 0;
-}
-
-.flex-center p {
-  font-size: 32px;
-  margin: 0;
-} */
